@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Header from "./Headercomponent";
 import Footer from "./Footercomponent";
 import Home from "./Homecomponent";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { BrowserRouter as Router, Route, Switch, Redirect, withRouter } from 'react-router-dom';
 
 
