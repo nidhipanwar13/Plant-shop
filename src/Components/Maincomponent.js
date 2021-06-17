@@ -3,13 +3,15 @@ import Header from "./Headercomponent";
 import Footer from "./Footercomponent";
 import Home from "./Homecomponent";
 import Cacti from "./Cacticomponent";
+import Plant from "./Plantcomponent";
+import Succulent from './Succulentcomponent';
+import Privacy from './Privacycomponent';
+import Shipping from './Shippingcomponent';
+import FAQ from './FAQcomponent';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import { BrowserRouter as Router, Route, Switch, Redirect, withRouter } from 'react-router-dom';
-
-
 
 
 class Main extends Component {
@@ -17,34 +19,29 @@ class Main extends Component {
     render() {
         return (
             <div>
-            <Router>
-                <Header />
-                <Home/>
-               
+                                    <Header />
 
-                <Switch >
-                <Route exact path="/Home" component={Home} />
-                {/* <Route exact path="/Cacti" component={Cacti} /> */}
+                <Router>
+                   
+                    <Switch >
+                        <Route exact path="/Home" component={Home} />
+                        <Route exact path="/Cacti" component={Cacti} />
+                        <Route exact path="/Plant" component={Plant} />
+                        <Route exact path="/Succulent" component={Succulent} />
+                        <Route exact path="/Privacy" component={Privacy} />
+                        <Route exact path="/Shipping" component={Shipping} />
+                        <Route exact path="/FAQ" component={FAQ} />
 
 
+
+
+                        <Redirect to="/Home" />
                     </Switch>
 
-{/* 
-                        <Switch >
-                            <Route exact path="/Home" component={Home} />
-                             <Route exact path="/Bedroom" component={Bedroom} />
-                            <Route exact path="/Dining" component={Dining} />
-                            <Route exact path="/Living" component={Living} />
-                            <Route exact path="/Workplace" component={Workplace} />
-                            <Route exact path="/Contact" component={Contact} /> 
+                </Router>
+                <Footer />
 
-                            <Redirect to="/Home" />
-                        </Switch> */}
-                  
-            </Router>
-            <Footer />
-
-        </div>
+            </div>
         );
     }
 }

@@ -18,9 +18,9 @@ class Header extends Component {
                         <Navbar.Collapse id="responsive-navbar-nav" >
                             <Nav className="mr-auto">
                                 <NavDropdown title="Shop" id="collasible-nav-dropdown" style={{ color: 'rgba(147,58,22)' }}>
-                                    <NavDropdown.Item to="/Cacti" style={{ color: 'rgba(147,58,22)' }} className="text-center">Cacti</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2" style={{ color: 'rgba(147,58,22)' }} className="text-center">Plant</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.3" style={{ color: 'rgba(147,58,22)' }} className="text-center">Succulent</NavDropdown.Item>
+                                    <NavDropdown.Item href="/Cacti" style={{ color: 'rgba(147,58,22)' }} className="text-center">Cacti</NavDropdown.Item>
+                                    <NavDropdown.Item href="/Plant" style={{ color: 'rgba(147,58,22)' }} className="text-center">Plant</NavDropdown.Item>
+                                    <NavDropdown.Item href="/Succulent" style={{ color: 'rgba(147,58,22)' }} className="text-center">Succulent</NavDropdown.Item>
                                 </NavDropdown>
                                 <Nav.Link href="#pricing" style={{ color: 'rgba(147,58,22)' }}>About</Nav.Link>
                                 <Nav.Link href="#pricing" style={{ color: 'rgba(147,58,22)' }}>FAQ</Nav.Link>
@@ -34,6 +34,7 @@ class Header extends Component {
                             </Nav>
                         </Navbar.Collapse>
                     </div>
+                    <br/><br/>
                 </Navbar>
             </div>
 
