@@ -17,24 +17,24 @@ class Header extends Component {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ color: 'rgba(147,58,22)' }} />
                         <Navbar.Collapse id="responsive-navbar-nav" >
                             <Nav className="mr-auto">
-                                <NavDropdown title="Shop" id="collasible-nav-dropdown" style={{ color: 'rgba(147,58,22)' }}>
+                                <NavDropdown title="Shop" className="collasible-nav-dropdown" style={{ color: 'rgba(147,58,22)' }}>
                                     <NavDropdown.Item href="/Cacti" style={{ color: 'rgba(147,58,22)' }} className="text-center">Cacti</NavDropdown.Item>
                                     <NavDropdown.Item href="/Plant" style={{ color: 'rgba(147,58,22)' }} className="text-center">Plant</NavDropdown.Item>
                                     <NavDropdown.Item href="/Succulent" style={{ color: 'rgba(147,58,22)' }} className="text-center">Succulent</NavDropdown.Item>
                                 </NavDropdown>
-                                <Nav.Link href="#pricing" style={{ color: 'rgba(147,58,22)' }}>About</Nav.Link>
-                                <Nav.Link href="#pricing" style={{ color: 'rgba(147,58,22)' }}>FAQ</Nav.Link>
-                                <Nav.Link href="#pricing" style={{ color: 'rgba(147,58,22)' }}>Contact</Nav.Link>
+                                <Nav.Link href="#section1" style={{ color: 'rgba(147,58,22)' }}>About</Nav.Link>
+                                <Nav.Link href="/FAQ" style={{ color: 'rgba(147,58,22)' }}>FAQ</Nav.Link>
+                                <Nav.Link href="/Home/#section2" style={{ color: 'rgba(147,58,22)' }}>Contact</Nav.Link>
                             </Nav>
                             <Nav style={{ color: 'rgba(147,58,22)' }}>
                                 <h6 style={{ marginLeft: '3em', marginTop: '10px' }}>We Deliver to Your Doorstep </h6>
                                 <Nav.Link href="#pricing" style={{ color: 'rgba(147,58,22)' }}> <CgProfile /></Nav.Link>
                                 <Nav.Link href="#pricing" style={{ color: 'rgba(147,58,22)' }}>Log in</Nav.Link>
-                                <Nav.Link href="#pricing" style={{ color: 'rgba(147,58,22)' }}> <GiShoppingBag /></Nav.Link>
+                                <Nav.Link href="/Cart" style={{ color: 'rgba(147,58,22)' }}> <GiShoppingBag /></Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </div>
-                    <br/><br/>
+                    <br /><br />
                 </Navbar>
             </div>
 

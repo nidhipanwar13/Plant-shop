@@ -8,8 +8,8 @@ import Succulent from './Succulentcomponent';
 import Privacy from './Privacycomponent';
 import Shipping from './Shippingcomponent';
 import FAQ from './FAQcomponent';
-
-
+import Shopall from './Shopallcomponent';
+import Cart from './Cartcomponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch, Redirect, withRouter } from 'react-router-dom';
 
@@ -19,10 +19,9 @@ class Main extends Component {
     render() {
         return (
             <div>
-                                    <Header />
+                <Header />
 
                 <Router>
-                   
                     <Switch >
                         <Route exact path="/Home" component={Home} />
                         <Route exact path="/Cacti" component={Cacti} />
@@ -31,13 +30,12 @@ class Main extends Component {
                         <Route exact path="/Privacy" component={Privacy} />
                         <Route exact path="/Shipping" component={Shipping} />
                         <Route exact path="/FAQ" component={FAQ} />
-
-
+                        <Route exact path="/Shopall" component={Shopall} />
+                        <Route exact path="/Cart" component={Cart} />
 
 
                         <Redirect to="/Home" />
                     </Switch>
-
                 </Router>
                 <Footer />
 

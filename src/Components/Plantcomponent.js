@@ -9,21 +9,19 @@ class Plant extends Component {
             <Container fluid style={{ backgroundColor: 'rgba("192,192,192")' }}>
                 <Row className="justify-content-md-center">
                     <Col md={11}>
-  
+
                         <div className=" text-center"
                             style={{ backgroundImage: 'url("./image/plant-bg.jpg")', backgroundAttachment: 'fixed', backgroundSize: 'cover' }}>
-                            <br /><br/><br/><br/>
-                            <a href="./Shop.html" style={{ color: 'white', textDecoration: 'none' }}>Shop
-                                All</a><br /><br /><br /><br/><br/>
+                            <br /><br /><br /><br />
+                            <a href="./Shopall" style={{ color: 'white', textDecoration: 'none' }}>Shop
+                                All</a><br /><br /><br /><br /><br />
                             <h1 className="display-1 text-center" style={{ color: 'floralwhite' }}>THE WORLD
-            NEEDS <br /> MORE PLANTS</h1><br />
+                                NEEDS <br /> MORE PLANTS</h1><br />
                             <p className="text-center" style={{ color: 'white' }}> I'm a paragraph. Click here to add your own text and edit me. It’s
                                 easy. Just click “Edit Text” or double <br />click me to add your own content and make changes to the font.
                                 I’m a great place for you to tell a <br />story and let your users know a little more about you.</p>
-                            <br /><br /><br /><br /><br /><br /><br /><br /><br />
+                            <br /><br /><br /><br /><br /><br /><br /><br />
                         </div><br /><br />
-
-
 
                         <div >
                             <h4 className="text-center" style={{ color: 'black' }}>PLANT</h4><br />
@@ -37,8 +35,9 @@ class Plant extends Component {
                                     <a href="#" style={{ color: 'rgba(147,58,22)', textDecoration: 'none', alignItems: 'center' }}>
                                         $13.50</a><br />
                                     <button type="button" class="btn text-center "
-                                        style={{ backgroundColor: 'rgba(147,58,22)', color: 'floralwhite' }}><a href="./Cart.html">Add to
-                                            Cart </a></button>
+                                        style={{ backgroundColor: 'rgba(147,58,22)', color: 'floralwhite' }}><a style={{ color: 'white', textDecoration: 'none' }} href="./Cart" >Add to
+                                        Cart
+                                         </a></button>
                                 </div>
                                 <div className="col">
                                     <div className="card">
@@ -49,8 +48,9 @@ class Plant extends Component {
                                     <a href="#" style={{ color: 'rgba(147,58,22)', textDecoration: 'none', alignItems: 'center' }}>
                                         $13.50</a><br />
                                     <button type="button" class="btn text-center "
-                                        style={{ backgroundColor: 'rgba(147,58,22)', color: 'floralwhite' }}>Add to
-                                        Cart</button>
+                                        style={{ backgroundColor: 'rgba(147,58,22)', color: 'floralwhite' }}><a style={{ color: 'white', textDecoration: 'none' }} href="./Cart" >Add to
+                                        Cart
+                                         </a></button>
                                 </div>
                                 <div className="col">
                                     <div className="card">
@@ -61,8 +61,9 @@ class Plant extends Component {
                                     <a href="#" style={{ color: 'rgba(147,58,22)', textDecoration: 'none', alignItems: 'center' }}>
                                         $13.50</a><br />
                                     <button type="button" class="btn text-center "
-                                        style={{ backgroundColor: 'rgba(147,58,22)', color: 'floralwhite' }}>Add to
-                                        Cart</button>
+                                        style={{ backgroundColor: 'rgba(147,58,22)', color: 'floralwhite' }}><a style={{ color: 'white', textDecoration: 'none' }} href="./Cart" >Add to
+                                        Cart
+                                         </a></button>
                                 </div>
                             </div><br /><br />
                             <div className="row row-cols-1 row-cols-md-3 g-4">
@@ -75,8 +76,9 @@ class Plant extends Component {
                                     <a href="#" style={{ color: 'rgba(147,58,22)', textDecoration: 'none', alignItems: 'center' }}>
                                         $13.50</a><br />
                                     <button type="button" class="btn text-center "
-                                        style={{ backgroundColor: 'rgba(147,58,22)', color: 'floralwhite' }}>Add to
-                                        Cart</button>
+                                        style={{ backgroundColor: 'rgba(147,58,22)', color: 'floralwhite' }}><a style={{ color: 'white', textDecoration: 'none' }} href="./Cart" >Add to
+                                        Cart
+                                         </a></button>
                                 </div>
                                 <div className="col">
                                     <div className="card">
@@ -87,8 +89,9 @@ class Plant extends Component {
                                     <a href="#" style={{ color: 'rgba(147,58,22)', textDecoration: 'none', alignItems: 'center' }}>
                                         $13.50</a><br />
                                     <button type="button" class="btn text-center "
-                                        style={{ backgroundColor: 'rgba(147,58,22)', color: 'floralwhite' }}>Add to
-                                        Cart</button>
+                                        style={{ backgroundColor: 'rgba(147,58,22)', color: 'floralwhite' }}><a style={{ color: 'white', textDecoration: 'none' }} href="./Cart" >Add to
+                                        Cart
+                                         </a></button>
                                 </div>
                                 <div className="col">
                                     <div className="card">
@@ -99,8 +102,9 @@ class Plant extends Component {
                                     <a href="#" style={{ color: 'rgba(147,58,22)', textDecoration: 'none', alignItems: 'center' }}>
                                         $13.50</a><br />
                                     <button type="button" class="btn text-center "
-                                        style={{ backgroundColor: 'rgba(147,58,22)', color: 'floralwhite' }}>Add to
-                                        Cart</button>
+                                        style={{ backgroundColor: 'rgba(147,58,22)', color: 'floralwhite' }}><a style={{ color: 'white', textDecoration: 'none' }} href="./Cart" >Add to
+                                        Cart
+                                         </a></button>
                                 </div>
                             </div>
                         </div><br />
